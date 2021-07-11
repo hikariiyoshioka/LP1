@@ -96,13 +96,28 @@ li {
   font-weight: 700;
   color: black;
 }
+.txt0,
+.txt01 {
+  border: 2px solid #c69d18;
+  position: relative;
+}
+.txt0 h3,
+.txt01 h3 {
+  font-size: 25px;
+}
+.txt0:after,
+.txt01:after {
+  position: absolute;
+  top: 2px;
+  left: -4px;
+  content: "";
+  height: 100%;
+  width: 100%;
+  z-index: -999;
+  background-color: #fe9;
+}
 .section {
   padding: 150px 0;
-  border-top: solid 3px #fe9;
-}
-
-.section:nth-of-type(odd) {
-  background-color: #eee;
 }
 .about_img {
   position: relative;
@@ -150,7 +165,6 @@ li {
   font-size: 40px;
   font-weight: bold;
   color: #555;
-  border-left: solid 4px #fe9;
 }
 
 .title span {
@@ -199,7 +213,7 @@ li {
   top: 50%;
   z-index: 1;
   background-color: #333;
-  width: 40%;
+  width: 5%;
   height: 2px;
   margin-top: -1px;
 }
@@ -227,27 +241,51 @@ li {
 .sub_title span {
   position: relative;
   padding-right: 10px;
+  font-size: 22px;
 }
 /*profileについて*/
-.frame_profile {
-  display: inline-block;
-  width: 35%;
-  height: 100%;
-  background-color: #eee;
-  border-radius: 5px;
-  margin: 30px;
-  padding: 40px;
+.profile_section {
+  text-align: center;
+  padding: 0 auto;
+  height: 300px;
 }
-.profile_bg {
-  background-color: #fff;
-  height: 460px;
+.profile_1 {
+  display: flex;
+  justify-content: space-evenly;
+  border: solid 3px #888;
+  border-radius: 10px;
+  margin: 0 10%;
+}
+#detail {
+  background-color: rgb(245, 245, 245);
+}
+#contact {
+  background-color: rgb(245, 245, 245);
+  height: 60px;
+}
+#blog {
+  background-color: rgb(245, 245, 245);
+}
+.profile_2 {
+  display: flex;
+  justify-content: space-evenly;
+  border: solid 3px #888;
+  border-radius: 10px;
+  margin: 0 10%;
+}
+.txt2 {
+  width: 20%;
 }
 .intro {
   display: flex;
 }
 
 .intro_img {
-  padding-right: 40px;
+  padding-left: 20px;
+  text-align: center;
+}
+.list {
+  text-align: webkit match parent;
 }
 .txt ul {
   padding: 10px;
