@@ -251,6 +251,7 @@ li {
 }
 .profile_1 {
   display: flex;
+  height: 270px;
   justify-content: space-evenly;
   border: solid 3px #888;
   border-radius: 10px;
@@ -268,13 +269,10 @@ li {
 }
 .profile_2 {
   display: flex;
-  justify-content: space-evenly;
+  height: 270px;
   border: solid 3px #888;
   border-radius: 10px;
   margin: 0 10%;
-}
-.txt2 {
-  width: 20%;
 }
 .intro {
   display: flex;
@@ -289,6 +287,9 @@ li {
 }
 .txt ul {
   padding: 10px;
+}
+.txt2 {
+  width: 35%;
 }
 
 .txt ul li {
