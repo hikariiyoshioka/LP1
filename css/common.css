@@ -273,6 +273,9 @@ li {
   border: solid 3px #888;
   border-radius: 10px;
   margin: 0 10%;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .intro {
   display: flex;
